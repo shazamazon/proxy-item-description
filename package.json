@@ -1,17 +1,32 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "proxy-item-description",
+  "description": "proxy for shazamazon project",
   "author": "",
-  "license": "",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon server/server.js"
   },
   "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.11",
+    "nodemon": "^1.19.1"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git"
+  },
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shazamazon/proxy-item-description.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shazamazon/proxy-item-description/issues"
+  },
+  "homepage": "https://github.com/shazamazon/proxy-item-description#readme"
 }
