@@ -29,6 +29,48 @@ html {
   font-family: Amazon Ember;
 }
 
+body {
+  margin: 0px;
+}
+
+#shazamazon {
+  width: 100%;
+}
+
 #gallery_description_cart {
   display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.top_bar {
+  height: 30px;
+}
+
+#des_itemDescriptionModule {
+  width: 90%;
+  margin-left: 4%;
+}
+
+#cart-app {
+  margin-right: 0;
+}
+
+.bar {
+  border-bottom: 1px solid #e7e7e7;
+  margin: 30px 10px;
+}
+
+#Carousel {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#reviewsApp {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
