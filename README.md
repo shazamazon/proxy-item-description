@@ -1,6 +1,6 @@
 # Front End Capstone - Shazamazon
 
-The goal of this project is to build a full-stack application as a team.  Our seven-person team was tasked with making an Amazon clone which we called "Shazamazon" and we focused on selling magic-related items.  Our team worked in two-day sprints with daily standups and we managed our workload using a Trello board, keeping with Agile workflow protocol.  We also held periodic code share meetings.
+The goal of this project is to build a full-stack application as a team.  Our seven-person team was tasked with making an Amazon clone which we called "Shazamazon" and we focused on selling magic-related items.  Our team worked in two-day sprints with daily standups and we managed our workload using a Trello board, keeping with Agile workflow protocol.  We utilized git branches and peer-reviewed merge requests, and we also held periodic code share meetings.
 
 This is a front-end heavy project, as we only had to manage a database of 105 items.  Each team member developed a specific module and I was in charge of the item description.  I used React and vanilla CSS on the front end, and Node, Express and MongoDB Atlas to manage the data. Shamazon utilizes service-oriented architecture.  Each of us deployed our component separately and the components are displayed together on a proxy server.  Each component is hosted on a AWS/EC2 server.  Our components all came together on an AWS EC2 hosted proxy server.
 
