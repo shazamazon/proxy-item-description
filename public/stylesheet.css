@@ -25,52 +25,191 @@
   url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIFont-amazonember_bdit-57598ce426a612be5a1d15eee08252668fca5e7a._V2_.woff) format("woff")
 }
 
-html {
-  font-family: Amazon Ember;
-}
-
 body {
   margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Amazon Ember' !important;
+  animation: bgColor 2.5s;
 }
 
 #shazamazon {
+  height: 100%;
+  width: 100%;
+  animation: fadeIn 3s;
+}
+
+#nav-main {
+  height: 100%;
   width: 100%;
 }
 
-#gallery_description_cart {
+.nav-category {
+  font-size: 12px;
+}
+
+#nav-cart-container {
+  font-size: 12px;
+}
+
+#top {
   display: flex;
-  justify-content: space-between;
-  margin: 10px;
-}
-
-.top_bar {
-  height: 30px;
-}
-
-#des_itemDescriptionModule {
-  width: 90%;
-  margin-left: 4%;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #cart-app {
-  margin-right: 0;
-}
-
-.bar {
-  border-bottom: 1px solid #e7e7e7;
-  margin: 30px 10px;
-}
-
-#Carousel {
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+}
+
+#gall_root {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#car-container {
+  margin: 50px 20px 20px 15px;
+  height:100%;
 }
 
 #reviewsApp {
   margin-left: 15px;
   margin-right: 15px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+}
+
+#qa-app {
+  margin: 50px 20px 20px 15px;
+}
+
+#rev_rev_stream {
+  overflow: none;
+}
+
+#Browsing-History-Carousel {
+  margin: 15px 20px 20px 15px;
+}
+
+#des_app {
+  width: 35%;
+}
+
+#proxy_witch {
+  z-index: 100;
+  position: fixed;
+  top: 50%;
+  left: 35%;
+  animation: xAxis 3s;
+  transform: translate(-50%, -50%);
+}
+
+#proxy_witch_add {
+  filter: invert(1) sepia(1) saturate(18.3) hue-rotate(155.6deg) brightness(0.70);
+  animation: yAxis 3s;
+}
+
+#hero_logo {
+  z-index: 100;
+  animation: fadeOutLogo 2s;
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#moon {
+  fill: whitesmoke;
+  width: 1000px;
+  height: auto;
+  animation: fadeOut 2s;
+  position: fixed;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes yAxis {
+  0% {
+    transform: translateY(1000px);
+    opacity: 1;
+  }
+
+  30% {
+    transform: translateY(-200px);
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+}
+
+@keyframes xAxis {
+  0% {
+    transform: translateX(1000px);
+  }
+
+  100% {
+    transform: translateX(-1000px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bgColor {
+  0% {
+    background: #232F3E;
+  }
+  50% {
+    background: #232F3E;
+  }
+  100% {
+    background: white;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOutLogo {
+  0% {
+    opacity: 1;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
